@@ -39,7 +39,8 @@ SystemJS.config({
         "child_process": "github:jspm/nodelibs-child_process@0.2.0-alpha",
         "process": "github:jspm/nodelibs-process@0.2.0-alpha",
         "util": "github:jspm/nodelibs-util@0.2.0-alpha",
-        "vm": "github:jspm/nodelibs-vm@0.2.0-alpha"
+        "vm": "github:jspm/nodelibs-vm@0.2.0-alpha",
+        "cratis.javascript.reflection": "npm:cratis.javascript.reflection@1.0.0"
     },
     packages: {
         "github:jspm/nodelibs-buffer@0.2.0-alpha": {
