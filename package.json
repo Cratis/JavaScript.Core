@@ -23,9 +23,6 @@
     "jspm": {
         "name": "cratis-javascript-core",
         "main": "Distribution/index.js",
-        "directories": {
-            "lib" : "Source"
-        },
         "dependencies": {
             "cratis-javascript-reflection": "github:Cratis/JavaScript.Reflection@master"
         },
