@@ -31,6 +31,9 @@ SystemJS.config({
     packages: {
         "cratis-javascript-core": {
             "main": "Distribution/index.js",
+            "map": {
+                "cratis-javascript-core": "github:Cratis/JavaScript.Core@master/Distribution"
+            },
             "meta": {
                 "*.js": {
                     "loader": "plugin-babel"
