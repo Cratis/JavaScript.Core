@@ -1,6 +1,6 @@
 SystemJS.config({
     paths: {
-        "cratis-javascript-core/": "src/"
+        "cratis-javascript-core/": "Source/"
     },
     browserConfig: {
         "paths": {
