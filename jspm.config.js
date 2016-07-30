@@ -1,19 +1,17 @@
 SystemJS.config({
     paths: {
-        "cratis-javascript-core/*": "Distribution/*"
+        "cratis-javascript-core/": "Source/"
     },
     browserConfig: {
         "paths": {
             "npm:": "/jspm_packages/npm/",
-            "github:": "/jspm_packages/github/",
-            "cratis-javascript-core/*": "/Distribution/*"
+            "github:": "/jspm_packages/github/"
         }
     },
     nodeConfig: {
         "paths": {
             "npm:": "jspm_packages/npm/",
-            "github:": "jspm_packages/github/",
-            "cratis-javascript-core/*": "Distribution/*"
+            "github:": "jspm_packages/github/"
         }
     },
     devConfig: {
@@ -30,9 +28,9 @@ SystemJS.config({
     transpiler: "plugin-babel",
     packages: {
         "cratis-javascript-core": {
-            "main": "Distribution/index.js",
-            "map": {
-                "cratis-javascript-core": "github:Cratis/JavaScript.Core@master/Distribution"
+            "main": "index.js",
+            "directories": {
+                "lib": "Distribution"
             },
             "meta": {
                 "*.js": {
