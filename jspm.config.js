@@ -30,7 +30,7 @@ SystemJS.config({
     transpiler: "plugin-babel",
     packages: {
         "cratis-javascript-core": {
-            "main": "index.js",
+            "main": "Distribution/index.js",
             "meta": {
                 "*.js": {
                     "loader": "plugin-babel"

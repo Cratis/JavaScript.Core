@@ -2,7 +2,7 @@
     "name": "cratis-javascript-core",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "Distribution/index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -21,7 +21,7 @@
     },
     "jspm": {
         "name": "cratis-javascript-core",
-        "main": "index.js",
+        "main": "Distribution/index.js",
         "dependencies": {
             "cratis-javascript-reflection": "github:Cratis/JavaScript.Reflection@master"
         },
