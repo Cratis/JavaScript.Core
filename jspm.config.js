@@ -1,19 +1,19 @@
 SystemJS.config({
     paths: {
-        "cratis-javascript-core/": "Source/"
+        "cratis-javascript-core/*": "Distribution/*"
     },
     browserConfig: {
         "paths": {
             "npm:": "/jspm_packages/npm/",
             "github:": "/jspm_packages/github/",
-            "cratis.javascript.core/": "/Source/"
+            "cratis-javascript-core/*": "/Distribution/*"
         }
     },
     nodeConfig: {
         "paths": {
             "npm:": "jspm_packages/npm/",
             "github:": "jspm_packages/github/",
-            "cratis.javascript.core/": "Source/"
+            "cratis-javascript-core/*": "Distribution/*"
         }
     },
     devConfig: {
