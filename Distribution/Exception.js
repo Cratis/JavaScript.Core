@@ -50,8 +50,12 @@ var Exception = exports.Exception = function () {
 
   }], [{
     key: "throw",
-    value: function _throw(messageParameters) {
-      throw new this();
+    value: function _throw() {
+      var bindArguments = [null];
+      for (var argumentIndex = 0; argumentIndex < arguments.length; argumentIndex++) {
+        bindArguments.push(arguments[argumentIndex]);
+      }var boundException = this.bind.apply(this, bindArguments);
+      throw new boundException();
     }
   }]);
 
