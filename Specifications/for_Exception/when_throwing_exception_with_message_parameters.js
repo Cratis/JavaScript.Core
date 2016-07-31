@@ -8,6 +8,8 @@ class MyException extends Exception
 {
     constructor(first, second) {
         super(`${first} - ${second}`);
+        this.first = first;
+        this.second = second;
     }
 }
 
